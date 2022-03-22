@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Myriad Pro;
+    font-weight: 100 !important;
+}
+/* .border{
+    border: 1px solid;
+}
+.border1{
+    border: 1px solid red;
+}
+.border2{
+    border: 1px solid green;
+} */
+.header{
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0.5% 0 !important;
+}
+.header_section{
+    margin: 0px !important;
+}
+.header_list ul{
+    list-style-type: none;
+}
+.header_list ul li{
+    display: inline-block;
+}
+.header_list ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.header_content {
+    color: #ffffff;
+    font-weight: 100 !important;
+    text-align: center;
+    padding: 18% 0 11% 0 !important;
+}
+.header_content_box{
+    padding: 1% 2% !important;
+    background-color: #061135b3;
+    opacity: 1;
+}
+.btn_main {
+    border: 1px solid white;
+    background: inherit;
+    padding: 1% 5%;
+    color: white;
+    font-size: 15px;
+    margin: 1% 0;
+  }
+  .header_content_search{
+      text-align: left;
+  }
+  .header_content_search p{
+      margin: 0;
+      font-size: 12px;
+  }
+  .search_address{
+     border-radius: 4px;
+     background-color: #ffffff;
+  }
+  .search_address_col_5{
+    background-color: #d8b55b;
+      padding: 1% 0;
+     border-radius: 4px;
+     color: #000;
+     text-transform: uppercase;
+  }
+  .search_address_col_7{
+      padding: 1% 0;
+     color: #000;
+  }
+  .search_address_col_5 p{
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  /* NEIGHBOURHOODS */
+
+  .neighbourhoods{
+      padding: 3% 0 !important;
+  }
+  .neighbourhoods h4{
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    margin: 0% 0 3% 0 !important;
+  }
+  .neighbourhoods_content h3{
+      text-align: center;
+      margin: 25% 0;
+      color: #ffffff;
+      font-size: 21px;
+  }
+  .tornto_h3{
+      margin: 5% 0 !important;
+  }
+  .neighbourhoods_content_col-4{
+      background-image: url(../images/toronto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 0 5px; */
+  }
+  .neighbourhoods_content_col-4_content{
+    margin: 60% 0 30% 0;
+  }
+  .neighbourhoods_content_col-6{
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0px 5px 0 0;
+      /* padding: 0px !important;
+      margin: 0px !important; */
+    }
+    .neighbourhoods_box1{
+    background-image: url(../images/bramption.png);
+}
+.neighbourhoods_box2{
+    background-image: url(../images/haliton.png);
+}
+.neighbourhoods_box3{
+    background-image: url(../images/torentpo-east.png);
+}
+.neighbourhoods_box4{
+    background-image: url(../images/valghan.png);
+}
+.home{
+    padding: 2% 0 4% 0;
+}
+.home .row{
+    margin: 0 !important;
+}
+.row{
+    margin: 0 !important;
+}
+.home_content_first{
+    background-image: url(../images/do-you-buy-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: 100 !important;
+    padding: 7% 0 !important;
+}
+.home_content_second{
+    background-image: url(../images/thinking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px !important;
+    font-weight: 100 !important;
+    padding: 7% 0 !important;
+}
+.listing .col-4{
+    padding: 0 !important;
+}
+.listing h3 {
+    font-size: 24px;
+    margin-bottom: 2%;
+  }
+.listing_img{
+    position: relative;
+    transition: transform .2s; 
+}
+.listing_hover{
+    position: relative;
+    transition: transform .4s; 
+}
+.listing_hover:hover{
+    transform: scale(1.3);
+    position: relative;
+    z-index: 100;
+}
+.listing h4{
+    position: absolute;
+    top: 17%;
+    left: 5.74%;
+    background-color: #c8913f;
+    width: 31%;
+    padding-left: 4%;
+    font-size: 17px;
+}
+.listing_img_content{
+    position: absolute;
+    bottom: 5%;
+}
+.listing_img_content h6{
+    font-size: 14px;
+    color: #ffffff;
+}
+.listing h6{
+    position: absolute;
+    bottom: 11%;
+    left: 5.8%;
+    background-color: #000d2e;
+    width: 88.8%;
+    color: #ffffff;
+    padding: 1.3% 8%;
+    font-size: 12px;
+}
+.listing_img_content .col-3{
+    padding: 0 !important;
+}
+.listing_img_content{
+    width: 88.8%;
+    position: absolute;
+    left: 9.9%;
+    padding: 1.2% 10%;
+    font-size: 8px;
+    bottom: 7%;
+    background-color: #c8913f;
+    font-weight: 700;
+}
+.btn_main2 {
+    border: 1px solid #948b8b;
+    background: inherit;
+    padding: 1% 4%;
+    color: #000;
+    font-size: 11px;
+    margin: 1% 0;
+    width: 22%;
+  }
+  .btn_main2 i{
+    padding-left: 6%;
+  }
+  .about{
+      background-color: #e3e3e3;
+      padding: 3% 0 1% 0;
+  }
+  .about h1{
+    font-size: 26px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0px !important;
+  }
+  .real{
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #000d2e;
+  }
+  .about_content p{
+    margin: 4% 0 !important;
+    font-size: 13px !important;
+    line-height: 23px;
+  }
+  .about_content2 p{
+    margin: 9% 0 3% 0;
+font-size: 13px;
+font-weight: 500;
+  }
+  .next{
+      display: flex;
+      margin-top: 4%;
+  }
+  .next h1{
+    background-color: #c8913f;
+    padding: 0% 2% 1%;
+    margin: 0 1% 0 0;
+  }
+  .services{
+      padding: 1% 0;
+      background-color: #000d2e;
+  }
+  .services h1{
+    color: white;
+    font-size: 25px;
+    margin: 2% 0;
+  }
+  .services img{
+      width: 100%;
+  }
+  .service_box{
+      color: #ffffff;
+      text-align: center;
+      padding: 15% 0 1%;
+      flex: 0 0 24% !important;
+max-width: 24% !important;
+  }
+  .service_box1{
+      background-image: url(../images/buyers.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .service_box2{
+    background-image: url(../images/homelogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_box3{
+    background-image: url(../images/granteted.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service_box4{
+    background-image: url(../images/rent.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .service_box h5 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+  .service_box p{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .consultation{
+      padding: 2% 0;
+  }
+  .consultation h2{
+    font-size: 23px !important;
+    font-weight: 700 !important;
+  }
+  .consultation p{
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .consultation h3{
+    background-color: #000d2e;
+    color: #ffffff;
+    width: 70%;
+    margin: auto !important;
+    font-size: 16px;
+    padding: 2%;
+  }
+  .footer{
+      padding: 2% 0;
+      background-image: url(../images/footer_img.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #ffffff;
+  }
+  .footer_box1{
+    padding-right: 5% !important;
+      border-right: 0.5px solid #596278;
+  }
+  .footer_box1 h6{
+    font-size: 17px;
+    margin: 0;
+  }
+  .quick h6{
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    margin: 0 0 8% 0 !important;
+  }
+  .footer_box1 p{
+      font-size: 12px;
+      margin: 0 !important;
+      padding-right: 5%;
+  }
+  .quick{
+      width: 21% !important;
+      border-right: 0.5px solid #596278;
+      padding-left: 4% !important;
+      padding-right: 3% !important;
+      padding-top: 1%;
+  }
+  .font-_awsome{
+    margin-right: 8%;
+  }
+  .quick p{
+      font-size: 9px;
+      margin-bottom: 12px !important;
+  }
+  .contact{
+      /* width: 20%; */
+      /* border-right: 0.5px solid #596278; */
+      padding-top: 1%;
+      padding-left: 4% !important;
+  }
+  .contact p{
+    font-size: 9px;
+    margin-bottom: 12px !important;
+  }
+  .profile{
+      position: absolute !important;
+      width: 175px !important;
+      top: -6%;
+      left: 87%;
+      right: 0;
+  }
+  .profile_detail{
+      background-color: #000d2e;
+      color: #ffffff;
+      border: 1px solid #ffffff;
+      padding: 1.5% 0 2.5% 0;
+      width: 100%;
+  }
+  .profile h5{
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  .profile p {
+
+    font-size: 9px;
+    font-weight: 600;
+    margin-bottom: 0%;
+
+}
+.contact i{
+    font-size: 20px;
+margin-right: 5%;
+margin-top: 4%;
+}
+.desclaimer p{
+    font-size: 10px;
+    text-align: center;
+    margin: 0% 0 !important;
+}
+.vector{
+    margin: 2%;
+}
+.vector img{
+    width: 1.8%;
+    margin-left: 0 0 !important;
+}
